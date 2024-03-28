@@ -1,0 +1,99 @@
+*{margin : 0px;
+    padding: 0px;
+    box-sizing: border-box}
+#body {
+        font-family: 'Poppins', sans-serif;
+}
+    
+#wrapper{
+}
+#header{
+    font-family: 'Poppins', sans-serif;
+    background-color: #378CE7;
+}
+#logo img{
+    padding: 10px;
+    max-width: 100px;
+}
+.name{
+    text-decoration: none;
+    color:white;
+    margin-top: 28px;
+    margin-left: 10px;
+    font-size: ;
+}
+#container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+#search{
+    height: 37px;
+    /* padding-left: 90px; */
+    padding-right: 180px;
+    padding-left: 100px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+
+#nav ul{
+    
+}
+
+#nav li{
+    display: inline-block;
+    margin-top: 20px;
+}
+#nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 24px;
+}
+
+ /* #nav-category{
+    display: inline;
+}
+#nav-category li{
+    margin: 24px;
+}
+#nav-category li a{
+    text-decoration: none;
+}  */
+
+#category{
+    font-family: 'Poppins', sans-serif;
+    background-color: #DFF5FF; /* Màu nền của category */
+}
+  
+#container-category {
+    margin: 0 auto;
+    padding: 24px; /* Thêm padding cho container-category */
+    max-width: 1200px; /* Độ rộng tối đa của container-category */
+}
+  
+#nav-category {
+    margin-top: auto;
+    display: flex;
+    flex-wrap: wrap; /* Cho phép các mục con xuống dòng khi không đủ không gian */
+    justify-content: center; /* Căn giữa các mục con */
+    list-style-type: none; /* Ẩn dấu hiệu danh sách */
+    padding: 0; /* Xóa padding mặc định của danh sách */
+}
+  
+#nav-category li {
+    margin: 15px; /* Khoảng cách giữa các mục con */
+}
+  
+#nav-category li a {
+    text-decoration: none;
+    color:  #6E3CBC; /* Màu chữ của các liên kết */
+    padding: 10px 20px; /* Padding cho mỗi mục */
+    border-radius: 50px; /* Bo tròn góc của mỗi mục */
+}
+  
+#nav-category li a:hover {
+    background-color: #98BAE7; /* Màu nền khi di chuột qua */
+}
